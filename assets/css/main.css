@@ -7,7 +7,7 @@ html {
 }
 body {
     background-color:#222;
-    background-image:url(/assets/images/stardust.png);
+    background-image:url(../images/stardust.png);
     font-family: 'Jura', sans-serif;
     text-transform: uppercase;
     margin: 0;
@@ -17,7 +17,7 @@ body {
 #charactersheet {
     display: block;
     background-color:#555;
-    background-image:url(/assets/images/broken-noise.png);
+    background-image:url(../images/broken-noise.png);
     max-width:90%;
     margin: auto;
     /*height: 100%;*/
@@ -32,7 +32,7 @@ body {
 }
 #footer {
     text-align: center;
-    content:url(/assets/images/FAITHrpglogo.png);
+    content:url(../images/FAITHrpglogo.png);
 }
 
 ul {
@@ -137,13 +137,13 @@ li{
     display: block;
     height: 13px;
     width: 142px;
-    background-image: url(/assets/images/TITLEcharacter.png);
+    background-image: url(../images/TITLEcharacter.png);
 }
 #titleDamage {
     display: block;
     height: 13px;
     width: 142px;
-    background-image: url(/assets/images/TITLEdamage.png);
+    background-image: url(../images/TITLEdamage.png);
 }*/
 
 
@@ -176,12 +176,12 @@ li{
 }
 
 .stars {
-  background:#222 url(/assets/images/stardust.png) repeat top center;
+  background:#222 url(../images/stardust.png) repeat top center;
   z-index:-2;
 }
 
 .twinkling{
-  background:transparent url(/assets/images/twinkling.png) repeat top center;
+  background:transparent url(../images/twinkling.png) repeat top center;
   z-index:-1;
 
   -moz-animation:move-twink-back 600s linear infinite;
